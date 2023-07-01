@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+#img {
+  position: relative;
+}
+.khung_button {
+  margin-bottom: 30px;
+}
+.button {
+  width: 329px;
+  height: 59px;
+  background-color: #49bbbd99;
+  border-radius: 33px;
+  padding: auto;
+}
+.button button {
+  width: 146px;
+  height: 40px;
+  border: none;
+  background-color: #92d6d6;
+  border-radius: 33px;
+  margin-top: 10px;
+}
+.input_form {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 40px;
+  border: 1px solid #49bbbd99;
+}
+.input_form:hover {
+  border: 1px solid #49bbbd99;
+  box-shadow: 1px 1px 1px 1px #49bbbd;
+}
+.button button:hover {
+  background-color: #49bbbd;
+}
+
+.button_submit {
+  background-color: #49bbbd;
+  color: #fff;
+
+  border: none;
+  width: 232px;
+  height: 49px;
+  border-radius: 36px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#h3_img {
+  font-size: 37px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  z-index: 5;
+  bottom: 110px;
+  left: 60px;
+}
+#p_img {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  z-index: 5;
+  bottom: 60px;
+  left: 60px;
+}
